@@ -3,7 +3,7 @@
 /**
  * main - fibonacci <3
  *
- * 
+ * Purpose - no hardcode
  *
  * Return:  (Success)
  */
@@ -42,6 +42,7 @@ int main(void)
 		aft2 = aft2 + bef2;
 		bef2 = aft2 - bef2;
 	}
+
 	printf("\n");
 	return (0);
 }
